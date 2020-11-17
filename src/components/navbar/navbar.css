@@ -1,0 +1,86 @@
+.vertical-items-contact {
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    text-align: left;
+}
+
+
+.vertical-center-contact {
+    min-height: 75vh;
+    max-width: 90vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 2.4em;
+    margin-top: 3em;
+    margin-right: 2.4em;
+}
+
+
+.text-color {
+    color: white;
+}
+
+.big-font-size-contact {
+    font-size: 4em !important;
+}
+
+.small-font-size-contact {
+    font-size: 1.2em !important;
+}
+
+.grid-about {
+    overflow-wrap: break-word;
+}
+
+.about-link{
+    color: #cfcf34;
+}
+
+.about-link:hover {
+    color: yellow;
+}
+
+.button-contact {
+    background-color: rgba(27,27,27,.91) !important;
+    color: white;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 90px;
+    height: 55px;
+}
+
+.button-contact:hover {
+    color: yellow;
+}
+
+.submit-button:hover {
+    color: yellow;
+}
+
+
+.input-contact{
+    background-color: rgba(27,27,27,.91) !important;
+    border-width: 1px;
+    border-color:  rgba(27,27,27,.91) !important;
+}
+
+.form-input {
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    border-width: 1px;
+    border-color: hsla(0,0%,100%,0);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.form-input:hover {
+    color: yellow;
+    border: black!important;
+}
+
+.form-input, .form-submit, .form-success {
+    background-color: rgba(27,27,27,.91);
+}
