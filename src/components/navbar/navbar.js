@@ -13,12 +13,12 @@ const Header = (props) => {
     const data = {};
 
     const checkJson = () => {
-        let formatData = {};
         try {
             JSON.parse(text)
             return true;
         } catch (e) {
              props.notify(400, 'Invalid json')
+            console.log("error; check json")
         }
 
         return false;
@@ -26,8 +26,7 @@ const Header = (props) => {
 
     const PrettyPrintJson = () => {
         // (destructured) data could be a prop for example
-
-        if (!checkJson) return;
+        if (!checkJson(text)) return;
 
         setText(JSON.stringify(JSON.parse(text), undefined, 4))
         //return props.notify(200, 'success')
